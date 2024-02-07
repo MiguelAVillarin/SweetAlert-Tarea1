@@ -1,0 +1,52 @@
+<router-outlet></router-outlet>
+<app-alerta-compra></app-alerta-compra>
+<div class="titulo text-center text-white p-1 border-bottom-3 border border-dark-subtle border-end-0 border-start-0 border-top-0">
+  <h1 class="display-1">Tienda Anime</h1>
+</div>
+
+<div class="banner border border-top-4 border-bottom-4 border-end-0 border-dark-subtle">
+  ¡Oferta Especial! Compra ahora y obtén un descuento del 20%. ¡No te lo pierdas!
+</div>
+<div class="container">
+  <section>
+    <div class="product-card">
+      <img class="product-image" src="https://i.blogs.es/bc1dd2/naruto/650_1200.png" alt="Producto 1">
+      <h2>Naruto Shippuden</h2>
+      <p>Naruto Shippuden es la segunda parte de Naruto</p>
+      <button class="btn btn-primary titulo border-0" style="margin-right: 10px;margin-left: 10px;"(click)="abrirModal()">Comprar</button>  
+    </div>
+
+    <div class="product-card">
+      <img class="product-image" src="https://depor.com/resizer/bR6_WG8aaFnxzbVis8FEhE_-njs=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/JI3UINL7ZBHCNJM7XG73RRN5VA.jpg" alt="Producto 2">
+      <h2>Dragon ball</h2>
+      <p>La primera parte de la vida de Son Goku en la tierra.</p>
+      <button class="btn btn-primary titulo border-0" style="margin-right: 10px;margin-left: 10px;"(click)="abrirModalDragon()">Comprar</button>  
+    </div>
+
+    <div class="product-card">
+      <img class="product-image" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/02/caballeros-zodiaco-como-acabo-anime-original-saint-seiya.jpg?tf=1200x" alt="Producto 3">
+      <h2>Los cabelleros del zodiaco</h2>
+      <p>Los caballeros del zodiaco va de las batallas que tienen que superar Seiya y sus compañeros</p>
+      <button class="btn btn-primary titulo border-0" style="margin-right: 10px;margin-left: 10px;"(click)="abrirModalSeiya()">Comprar</button>  
+    </div>
+
+    <div class="product-card">
+      <img class="product-image" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/08/one-piece_0.jpg?tf=1200x" alt="Producto 3">
+      <h2>One piece</h2>
+      <p>Sigue la aventura de Luffy por convertirse en el rey de los piratas</p>
+      <button class="btn btn-primary titulo border-0" style="margin-right: 10px;margin-left: 10px;"(click)="abrirModalOne()">Comprar</button>  
+    </div>
+
+    <div class="product-card">
+      <img class="product-image" src="https://d1tgyzt3mf06m9.cloudfront.net/v3-staging/2022/07/ichigo42fac639-5a73-4f02-aa43-c5fec1f6baea.jpg" alt="Producto 3">
+      <h2>Bleach</h2>
+      <p>La serie narra las aventuras de un adolescente llamado Ichigo Kurosaki<p>
+      <button class="btn btn-primary titulo border-0" style="margin-right: 10px;margin-left: 10px;"(click)="abrirModalBleach()">Comprar</button>  
+    </div>
+  </section>
+</div>
+
+<!-- Banner con animación -->
+<footer>
+  <p>&copy; 2024 Tienda en Línea. Todos los derechos reservados.</p>
+</footer>
